@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Diet Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>🥗 Daily Diet Tracker</h1>
+
+        <form id="dietForm">
+            <input type="text" id="foodName" placeholder="Food Name" required>
+            <input type="number" id="calories" placeholder="Calories" required>
+            <button type="submit">Add Food</button>
+        </form>
+
+        <h2>Total Calories: <span id="totalCalories">0</span> kcal</h2>
+
+        <ul id="foodList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
